@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "org.shubham.models";
+
+message Person {
+  string name = 1; //the values are field nums, not actual value assignments.
+  int32 age = 2;
+}
