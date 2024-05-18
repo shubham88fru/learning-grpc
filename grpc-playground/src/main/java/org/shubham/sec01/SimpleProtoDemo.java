@@ -2,7 +2,7 @@ package org.shubham.sec01;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.shubham.models.PersonOuterClass;
+import org.shubham.models.sec01.PersonOuterClass;
 
 public class SimpleProtoDemo {
     private static final Logger logger = LoggerFactory.getLogger(SimpleProtoDemo.class);
