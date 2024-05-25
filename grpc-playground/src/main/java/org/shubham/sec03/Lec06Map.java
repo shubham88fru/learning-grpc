@@ -13,12 +13,14 @@ public class Lec06Map {
                 .setMake("Honda")
                 .setModel("civic")
                 .setYear(2000)
+                .setBodyStyle(Map.BodyStyle.COUPE)
                 .build();
 
         var car2 = Map.Car.newBuilder()
                 .setMake("Honda")
                 .setModel("Accord")
                 .setYear(2002)
+                .setBodyStyle(Map.BodyStyle.SEDAN)
                 .build();
 
         var dealer = Map.Dealer.newBuilder()
