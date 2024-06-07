@@ -13,7 +13,7 @@ message Television {
   reserved "year", "model";
 
   Type type = 3;
-  
+
   int32 price = 4;
 }
 
